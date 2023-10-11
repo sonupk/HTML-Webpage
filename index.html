@@ -1,0 +1,69 @@
+<!-- /*Make sure to place images.jpeg in the same directory as your HTML and CSS files. 
+This code creates a responsive web page with a navigation bar, header with a background image, 
+a three-column section for features, and a contact form, all styled with CSS.*/
+
+/*To create an HTML page with the specified components and style it using CSS,
+ you will need three files: index.html, style.css,
+  and any image you want to use as a background (eg images.jpeg).
+ Here's the full code for these files:*/ -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Welcome to My Website</h1>
+        </div>
+    </header>
+
+    <section id="features">
+        <div class="feature">
+            <h2>Feature 1</h2>
+            <p>Description of feature 1 start here.</p>
+        </div>
+        <div class="feature">
+            <h2>Feature 2</h2>
+            <p>Description of feature 2 start here.</p>
+        </div>
+        <div class="feature">
+            <h2>Feature 3</h2>
+            <p>Description of feature 3 start here.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
